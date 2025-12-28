@@ -260,6 +260,10 @@ Potential enhancements:
 - Experiment with different positional encoding strategies
 - Add model ensembling with MLP
 
+## WanDB Evalutation
+Val_loss
+image.png
+
 ---
 
 **Last Updated:** December 2025  
