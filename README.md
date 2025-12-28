@@ -267,9 +267,3 @@ Potential enhancements:
 ![Accuracy](transformers-fig/accuracy.png)
 
 
----
-
-**Last Updated:** December 2025  
-**Architecture:** Transformer Encoder  
-**Status:** Production Ready
-
