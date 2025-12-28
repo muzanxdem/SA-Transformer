@@ -1,0 +1,20 @@
+# Transformer Model Configuration
+
+class_names:
+   - 'neutral'
+   - 'positive'
+   - 'negative'
+
+# Training hyperparameters
+batch_size: 128
+learning_rate: 0.001  # Lower LR for Transformer
+num_epochs: 30
+
+# Transformer architecture hyperparameters
+d_model: 128          # Model dimension
+nhead: 8              # Number of attention heads
+num_layers: 3         # Number of transformer encoder layers
+dim_feedforward: 512  # Feedforward network dimension
+dropout: 0.1          # Dropout rate
+max_seq_len: 1000     # Maximum sequence length (for positional encoding)
+

@@ -1,0 +1,63 @@
+Epoch 1/30: 100%|██████████| 189/189 [00:01<00:00, 165.37it/s]
+Model saved to SA-Transformer.pth
+Epoch 1/30, Train Loss: 0.2150, Val Loss: 0.0001, Learning Rate: 0.001000
+Epoch 2/30: 100%|██████████| 189/189 [00:00<00:00, 365.61it/s]
+Model saved to SA-Transformer.pth
+Epoch 2/30, Train Loss: 0.0039, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 3/30: 100%|██████████| 189/189 [00:00<00:00, 384.28it/s]
+Model saved to SA-Transformer.pth
+Epoch 3/30, Train Loss: 0.0035, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 4/30: 100%|██████████| 189/189 [00:00<00:00, 382.89it/s]
+Epoch 4/30, Train Loss: 0.0045, Val Loss: 0.0001, Learning Rate: 0.001000
+Epoch 5/30: 100%|██████████| 189/189 [00:00<00:00, 336.76it/s]
+Model saved to SA-Transformer.pth
+Epoch 5/30, Train Loss: 0.0000, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 6/30: 100%|██████████| 189/189 [00:00<00:00, 222.53it/s]
+Model saved to SA-Transformer.pth
+Epoch 6/30, Train Loss: 0.0000, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 7/30: 100%|██████████| 189/189 [00:00<00:00, 307.63it/s]
+Model saved to SA-Transformer.pth
+Epoch 7/30, Train Loss: 0.0000, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 8/30: 100%|██████████| 189/189 [00:00<00:00, 360.01it/s]
+Model saved to SA-Transformer.pth
+Epoch 8/30, Train Loss: 0.0000, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 9/30: 100%|██████████| 189/189 [00:00<00:00, 348.52it/s]
+Model saved to SA-Transformer.pth
+Epoch 9/30, Train Loss: 0.0000, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 10/30: 100%|██████████| 189/189 [00:00<00:00, 347.00it/s]
+Model saved to SA-Transformer.pth
+Epoch 10/30, Train Loss: 0.0000, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 11/30: 100%|██████████| 189/189 [00:00<00:00, 339.22it/s]
+Model saved to SA-Transformer.pth
+Epoch 11/30, Train Loss: 0.0000, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 12/30: 100%|██████████| 189/189 [00:00<00:00, 346.78it/s]
+Model saved to SA-Transformer.pth
+Epoch 12/30, Train Loss: 0.0000, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 13/30: 100%|██████████| 189/189 [00:00<00:00, 359.13it/s]
+Epoch 13/30, Train Loss: 0.0015, Val Loss: 0.0000, Learning Rate: 0.001000
+Epoch 14/30: 100%|██████████| 189/189 [00:00<00:00, 325.48it/s]
+Epoch 14/30, Train Loss: 0.0530, Val Loss: 0.0001, Learning Rate: 0.001000
+Epoch 15/30: 100%|██████████| 189/189 [00:00<00:00, 354.20it/s]
+Epoch 15/30, Train Loss: 0.4786, Val Loss: 0.4688, Learning Rate: 0.001000
+Epoch 16/30: 100%|██████████| 189/189 [00:00<00:00, 369.99it/s]
+Epoch 16/30, Train Loss: 0.4689, Val Loss: 0.4684, Learning Rate: 0.000100
+Epoch 17/30: 100%|██████████| 189/189 [00:00<00:00, 363.42it/s]
+Epoch 17/30, best_val=0.000001
+
+--- Starting Final Test ---
+Final Test Accuracy: 100.00%
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+    negative     1.0000    1.0000    1.0000       865
+     neutral     1.0000    1.0000    1.0000      1208
+    positive     1.0000    1.0000    1.0000       944
+
+    accuracy                         1.0000      3017
+   macro avg     1.0000    1.0000    1.0000      3017
+weighted avg     1.0000    1.0000    1.0000      3017
+
+--- Confusion Matrix ---
+[[ 865    0    0]
+ [   0 1208    0]
+ [   0    0  944]]

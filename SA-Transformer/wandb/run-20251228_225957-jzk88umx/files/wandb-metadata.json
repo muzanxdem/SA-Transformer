@@ -1,0 +1,43 @@
+{
+  "os":  "Linux-6.1.0-28-amd64-x86_64-with-glibc2.36",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2025-12-28T14:59:57.289164Z",
+  "program":  "/home/user/jupyter/DL-Obi/SA-Transformer/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "email":  "mariokazela2@gmail.com",
+  "root":  "/home/user/jupyter/DL-Obi/SA-Transformer",
+  "host":  "gpu1",
+  "executable":  "/home/user/jupyter/DL-Obi/SA-Transformer/.venv/bin/python3",
+  "cpu_count":  24,
+  "cpu_count_logical":  32,
+  "gpu":  "NVIDIA GeForce RTX 4070 Ti",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "1966309933056",
+      "used":  "1631187955712"
+    }
+  },
+  "memory":  {
+    "total":  "67251630080"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4070 Ti",
+      "memoryTotal":  "12878610432",
+      "cudaCores":  7680,
+      "architecture":  "Ada",
+      "uuid":  "GPU-09c3ac65-abc0-b5bb-6c6c-89c5c2957e75"
+    },
+    {
+      "name":  "NVIDIA RTX A4000",
+      "memoryTotal":  "17171480576",
+      "cudaCores":  6144,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-4c738679-d23f-d98f-fc90-4d3f5c03e6d2"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "a9p3cb02q0jiepdrsr1cda4bk07rroec"
+}
