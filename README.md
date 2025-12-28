@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains a **Transformer-based** implementation for sentiment analysis, completely separate from the MLP architecture in `SAAssignment2025/SA/`. The Transformer model treats each feature in the tabular data as a token in a sequence, leveraging self-attention mechanisms to learn complex feature interactions.
+This directory contains a **Transformer-based** implementation for sentiment analysis. The Transformer model treats each feature in the tabular data as a token in a sequence, leveraging self-attention mechanisms to learn complex feature interactions.
 
 ## Architecture
 
