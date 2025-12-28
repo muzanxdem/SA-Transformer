@@ -261,8 +261,8 @@ Potential enhancements:
 - Add model ensembling with MLP
 
 ## WanDB Evalutation
-Val_loss
-image.png
+![Val_Loss](transformers-fig/2025-12-28_23-37.png)
+
 
 ---
 
