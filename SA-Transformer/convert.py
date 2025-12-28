@@ -36,10 +36,12 @@ model.load_state_dict(torch.load(model_path, map_location=device))
 print("\nExporting Transformer model to ONNX")
 onnx_path = model_path.replace(".pth", ".onnx")
 
+# Try with fixed batch size first to avoid dynamic shape issues
 dummy_input = torch.randn(size=(1, num_features), device=device, dtype=torch.float32)
 
 model.eval()
 try:
+    # Export without dynamic axes first (fixed batch size)
     torch.onnx.export(
         model.to(device),
         dummy_input, 
@@ -47,9 +49,15 @@ try:
         verbose=False,
         input_names=['input'], 
         output_names=['output'],
-        dynamic_axes={'input': {0: 'batch_size'}, 'output': {0: 'batch_size'}}
+        # Remove dynamic_axes for now to avoid reshape issues
+        opset_version=17,
+        do_constant_folding=True,
+        export_params=True
     )
     print(f"Transformer model exported to ONNX at: {onnx_path}")
+    print("Note: Model exported with fixed batch size. For variable batch sizes, retrain with batch_first=True in Transformer layers.")
 except Exception as e:
     print(f"Error exporting model to ONNX: {e}")
+    import traceback
+    traceback.print_exc()
 

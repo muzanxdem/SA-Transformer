@@ -7,8 +7,8 @@ class_names:
 
 # Training hyperparameters
 batch_size: 128
-learning_rate: 0.001  # Lower LR for Transformer
-num_epochs: 30
+learning_rate: 0.01  # Lower LR for Transformer
+num_epochs: 20
 
 # Transformer architecture hyperparameters
 d_model: 128          # Model dimension

@@ -10,7 +10,8 @@ with open('config.yaml', 'r') as f:
 
 # Load raw data
 test = np.load('../data/SAAssignment2025/test.npy', allow_pickle=True)
-test_loader = preprocess_onnx(test, config['batch_size'], scaler_save_path='scaler.pkl')
+# Use batch_size=1 for ONNX inference (model was exported with fixed batch size)
+test_loader = preprocess_onnx(test, batch_size=1, scaler_save_path='scaler.pkl')
 
 # Path to ONNX model file
 onnx_model_path = 'SA-Transformer.onnx'

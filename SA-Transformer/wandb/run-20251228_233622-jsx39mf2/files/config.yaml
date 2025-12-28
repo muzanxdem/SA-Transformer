@@ -1,0 +1,81 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            ppb1eqrgrzkms9xphw2mn0t9kqp40l2w:
+                codePath: SA-Transformer/train.py
+                codePathLocal: train.py
+                cpu_count: 24
+                cpu_count_logical: 32
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1966309933056"
+                        used: "1631253819392"
+                email: mariokazela2@gmail.com
+                executable: /home/user/jupyter/DL-Obi/SA-Transformer/.venv/bin/python3
+                git:
+                    commit: c5542c2140e8c2a432ccb8479fc7be8d97fde87b
+                    remote: git@github.com:muzanxdem/SA-Transformer.git
+                gpu: NVIDIA GeForce RTX 4070 Ti
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 7680
+                      memoryTotal: "12878610432"
+                      name: NVIDIA GeForce RTX 4070 Ti
+                      uuid: GPU-09c3ac65-abc0-b5bb-6c6c-89c5c2957e75
+                    - architecture: Ampere
+                      cudaCores: 6144
+                      memoryTotal: "17171480576"
+                      name: NVIDIA RTX A4000
+                      uuid: GPU-4c738679-d23f-d98f-fc90-4d3f5c03e6d2
+                host: gpu1
+                memory:
+                    total: "67251630080"
+                os: Linux-6.1.0-28-amd64-x86_64-with-glibc2.36
+                program: /home/user/jupyter/DL-Obi/SA-Transformer/SA-Transformer/train.py
+                python: CPython 3.12.3
+                root: /home/user/jupyter/DL-Obi/SA-Transformer/SA-Transformer
+                startedAt: "2025-12-28T15:36:22.631358Z"
+                writerId: ppb1eqrgrzkms9xphw2mn0t9kqp40l2w
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 1
+                - 16
+            "4": 3.12.3
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+architecture:
+    value: Transformer
+batch_size:
+    value: 128
+d_model:
+    value: 128
+dim_feedforward:
+    value: 512
+dropout:
+    value: 0.1
+learning_rate:
+    value: 0.01
+nhead:
+    value: 8
+num_epochs:
+    value: 20
+num_layers:
+    value: 3
+optimizer:
+    value: AdamW
+scheduler:
+    value: ReduceLROnPlateau
