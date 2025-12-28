@@ -260,8 +260,11 @@ Potential enhancements:
 - Experiment with different positional encoding strategies
 - Add model ensembling with MLP
 
-## WanDB Evalutation
-![Val_Loss](transformers-fig/2025-12-28_23-37.png)
+## WanDB Evaluatation
+![Val Loss](transformers-fig/val_loss.png)
+![Train Loss](transformers-fig/train_loss.png)
+![Learning Rate](transformers-fig/lr.png)
+![Accuracy](transformers-fig/accuracy.png)
 
 
 ---
