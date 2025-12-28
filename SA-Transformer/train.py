@@ -9,7 +9,7 @@ from torchsummary import summary
 import wandb
 import yaml
 
-wandb.login(key="f3c52d906dd19b797b189d5640be154a572c4ece")
+wandb.login(key="wandb-api-key")
 
 def train_model(model, train_loader, val_loader, device, criterion, optimizer, scheduler, num_epochs):
     """
