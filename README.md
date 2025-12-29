@@ -78,6 +78,9 @@ Uses the same dependencies as the main project. Ensure you have:
 - onnx, onnxruntime (for model deployment)
 
 ## Usage
+### 0. Dataset
+Dataset from huggingface
+URL: https://huggingface.co/datasets/mteb/tweet_sentiment_extraction
 
 ### 1. Training
 
