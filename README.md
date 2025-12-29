@@ -1,4 +1,4 @@
-# SA-Transformer - Transformer Architecture for Sentiment Analysis
+# Transformer Model Architecture - Sentiment Analysis
 
 ## Overview
 
