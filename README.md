@@ -200,6 +200,9 @@ The Transformer model uses the **exact same preprocessed dataset** as the MLP ar
 - Validation data: `../data/SAAssignment2025/val.npy`
 - Class names: `../data/SAAssignment2025/class_names.npy`
 
+**Dataset:**
+- https://huggingface.co/datasets/mteb/tweet_sentiment_extraction
+
 **Note:** The dataset is in the `data/` directory at the project root, matching the structure of `SAAssignment2025/`.
 
 **Data Format:** `(n_samples, n_features + 1)` where the last column contains labels.
